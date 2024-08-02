@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%px;
+    height: 12vh;
+    padding: 25px 50px 25px 50px;
+    gap: 0px;
+    border-bottom: 1px rgb(213, 211, 211) solid;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+}
+nav .div1{
+   font-family: Epilogue;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 30px;
+   text-align: left;
+
+   
+}
+nav .div2{
+    display: flex;
+   
+}
+nav .div2 a{
+    font-family: Epilogue;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-right: 40px;
+  text-decoration: none;
+}
+nav .div2 a:hover{
+    color: rgb(66, 166, 224);
+    cursor: pointer;
+}
+
+
+.page-main1{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-main1 .div1 p{
+    width: 557px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom:40px;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+
+}
+.page-main1 .div1 h2{
+        font-family: Epilogue;
+        font-size: 80px;
+        font-weight: 600;
+        line-height: 90px;
+        text-align: left;
+        width: 557px;
+        height: 270px;
+        gap: 0px;
+        opacity: 0px;
+
+}
+.page-main1 .div2{
+    width: 500px;
+    height: 500px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 30px;
+ 
+
+}
+
+.s-service{
+    width: 100%;
+    height: 88vh;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+   
+    top: 80px;
+   padding: 180px 140px 180px 140px;
+   gap: 10px;
+    opacity: 0px;
+
+
+}
+.s-service .div1{
+    width: Hug (999.7px)px;
+    height: Hug (328px)px;
+    gap: 125px;      
+    opacity: 0px;
+    display: flex;
+   
+    
+
+}
+.s-service .div1 div{
+    width: Hug (249.9px)px;
+height: Hug (328px)px;
+gap: 56px;
+opacity: 0px;
+
+}
+.s-service div img{
+    width: 130px;
+    height: 130px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.s-service div h3{
+    
+font-family: Epilogue;
+font-size: 27px;
+font-weight: 600;
+line-height: 42px;
+text-align: center;
+margin: 30px;
+
+}
+.s-service div p{
+   
+    font-family: Epilogue;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+       
+}
+
+
+.project-main1{
+    width: 100%;
+    height: 88vh;
+    padding: 50px 0px;
+}
+.project-main1 .div-main{
+    width: Fixed (1,085px);
+    height: Fixed (894px);
+   
+    padding: 20px 100px 20px 100px;
+    gap: 60px;
+    opacity: 0px;
+    
+ display: flex;
+flex-direction: column;
+}
+.project-main1 .div-main .div1{
+    display: flex;
+    justify-content: space-around;
+}
+.project-main1 .div-main .div1 div{
+    width: Hug (315px);
+height: Hug (407px);
+gap: 25px;
+opacity: 0px;
+
+
+}
+.project-main1 .div-main .div1 img{
+width: 315px;
+height: 315px;
+gap: 0px;
+opacity: 0px;
+
+}
+.project-main1 .div-main .div1 h4{
+   
+font-family: Epilogue;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+margin: 10px 0px;
+
+}
+
+.project-main1 .div-main .div1 p{
+   
+font-family: Epilogue;
+font-size: 17px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+
+}
+
+
+
+
+
+
+
+
+.client-main{
+    width: 100%;
+    height: 88vh;
+    align-content: center;
+}
+.client-main .div-main1{
+    display: flex;
+    width: Hug (1,080px)px;
+    height: Hug (317px)px;
+     gap: 55px;
+     opacity: 0px;
+     align-items: center;
+     justify-content: center;
+     align-content: center;
+
+}
+.client-main .div-main1 .div2{
+    width: Fixed (315px)px;
+    height: Hug (317px)px;
+    padding: 30px 50px 30px 30px;
+    gap: 10px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+    border: 1.5px solid #1576D6;
+    background-color:rgb(236, 243, 250);
+    
+    
+}
+.client-main .div-main1 .div2 .div3{
+    display: flex;
+    width: Hug (263px)px;
+    height: Hug (57px)px;
+    gap: 20px;
+    opacity: 0px;
+    margin-top: 120px;
+    
+
+}
+.client-main .div-main1 .div2 p{
+width: 263px;
+height: 120px;
+gap: 0px;
+opacity: 0px;
+
+font-family: Epilogue;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+
+
+}
+.client-main .div-main1 .div2 .div3 div img{
+width: 50px;
+height: 50px;
+gap: 0px;
+border-radius: 50%;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
+.client-main .div-main1 .div2 .div3 div i{
+width: 20px;
+height: 20px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+.client-main .div-main1 .div2 .div3 div p{
+    width: 193px;
+    height: 27px;
+    gap: 0px;
+    opacity: 0px;
+        
+font-family: Epilogue;
+font-size: 17px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+
+}
+
+
+
+
+.contact-main1{
+    width: 100%;
+    height: 88vh;
+    padding: 80px 20px;
+}
+.contact-main1 .main{
+    width: 1,080px;
+    height: 495px;
+    top: 130px;
+    left: 100px;
+    gap: 70px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+.contact-main1 .main .div1{
+    width: 360px;
+    height: 286px;
+    gap: 60px;
+    opacity: 0px;
+    margin-right: 50px;
+}
+.contact-main1 .main .div1 h2{
+    width: 360px;
+    height: 42px;
+    gap: 0px;
+    opacity: 0px;
+     
+font-family: Epilogue;
+font-size: 32px;
+font-weight: 600;
+line-height: 42px;
+text-align: left;
+
+}
+
+.contact-main1 .main .div1 p{
+    width: 360px;
+    height: 108px;
+    gap: 0px;
+    opacity: 0px;
+    
+    font-family: Epilogue;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    margin: 50px 0;
+        
+}
+.contact-main1 .main .div1 i{
+width: 36px;
+height: 36px;
+font-size: 25px;
+padding: 4.5px 6.56px 3px 4.5px;
+gap: 0px;
+opacity: 0px;
+cursor: pointer;
+
+}
+
+.contact-main1 .main .div2{
+    width: Hug (530px)px;
+    height: Hug (495px)px;
+    gap: 20px;
+    opacity: 0px;
+       
+}
+.contact-main1 .main .div2 input{
+    width: 530px;
+height: 69px;
+padding: 21px 30px 21px 30px;
+gap: 10px;
+opacity: 0px;
+
+font-family: Epilogue;
+font-size: 17px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+margin: 20px 0;
+
+
+}
+
+.contact-main1 .main .div2 textarea{
+    width:530px;
+height: 231px;
+padding: 21px 30px 21px 30px;
+gap: 10px;
+opacity: 0px;
+
+font-family: Epilogue;
+font-size: 17px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+
+}
+.contact-main1 .main .div2 form .sub{
+width:199px;
+height: 66px;
+padding: 18px 64px 18px 64px;
+gap: 10px;
+opacity: 0px;
+color: white;
+background-color: #2D2D2D;
+font-family: Epilogue;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: center;
+cursor: pointer;
+}
+nav .div2 i{
+    color: black;
+   
+    font-size: 30px;
+  
+    
+ 
+    display: none;
+}
+
+
+@media only screen and (max-width: 1080px) {
+    .page-main1{
+        justify-content: flex-start;
+    }
+    .s-service{
+        padding: 0;
+    }
+    .project-main1 .div-main{
+        padding: 0;
+    }
+    .client-main .div-main1 .div2{
+        padding: 0;
+    }
+    .client-main .div-main1 {
+        gap: 10px;
+    }
+    .contact-main1 .main{
+        gap:1px;
+    }
+}
+
+@media only screen and (max-width: 990px){
+
+    .contact-main1 .main {
+        
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+   
+}
+
+
+@media only screen and (max-width: 820px){
+    .client-main .div-main1{
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    .client-main .div-main1 .div2 {
+        
+        padding: 30px 50px 30px 30px;
+       
+    }
+}
+
+@media only screen and (max-width: 670px){
+
+    nav .div2 i{
+        display:inline;
+    }
+    nav .div2 a{
+        display: none;
+    }
+    .page-main1{
+        flex-direction: column;
+        padding: 20px 0px;
+       align-items: center;
+       
+    }
+    .page-main1 .div1 p {
+        width: 315px;
+        height: 60px;       
+font-family: Epilogue;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: center;
+margin-left: 15px; 
+
+    }
+    .page-main1 .div1 h2{
+        width: 315px;
+        height: 135px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Epilogue;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 45.1px;
+        text-align: center;
+margin-left: 15px;                
+
+
+    }
+    
+    
+
+    .s-service .div1{
+        flex-direction: column;
+        padding: 30px 0px;
+    }
+
+
+    .project-main1 .div-main .div1 {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .project-main1 .div-main .div1 div{
+        margin-bottom: 50px;
+    }
+}
+
+
+
+@media only screen and (max-width: 540px){
+    .contact-main1 .main .div2 input,
+    .contact-main1 .main .div2 textarea{
+width: 350px;
+    }
+    .contact-main1 .main .div1{
+        margin: 0;
+    }
+    .contact-main1 .main .div1 h2{
+width: 315px;  
+height: 84px;      
+
+font-size: 32px;
+font-weight: 600;
+line-height: 42px;
+text-align: left;
+
+    }
+    .contact-main1 .main .div1 p{
+ width: 315px;
+height: 135px;
+
+font-size: 17px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+
+
+    }
+    .contact-main1 .main .div1 {
+        margin-bottom: 50px;
+        margin-left: 40px;
+    }
+}
