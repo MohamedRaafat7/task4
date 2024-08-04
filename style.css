@@ -429,12 +429,24 @@ nav .div2 i{
 @media only screen and (max-width: 1080px) {
     .page-main1{
         justify-content: flex-start;
+        flex-direction: column;
+        padding: 30px 0px;
     }
     .s-service{
         padding: 0;
     }
+    .s-service .div1{
+        flex-direction: column;
+        padding: 30px 0px;
+    }
+    .project-main1 .div-main .div1 {
+        display: flex;
+        flex-direction: column;
+    }
     .project-main1 .div-main{
         padding: 0;
+        flex-direction: row;
+        justify-content: center;
     }
     .client-main .div-main1 .div2{
         padding: 0;
@@ -470,6 +482,22 @@ nav .div2 i{
        
     }
 }
+@media only screen and (max-width: 695px){
+    .project-main1 .div-main{
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .project-main1 .div-main .div1 {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .project-main1 .div-main .div1 div{
+        margin-bottom: 50px;
+    }
+}
+
 
 @media only screen and (max-width: 670px){
 
@@ -517,6 +545,7 @@ margin-left: 15px;
         flex-direction: column;
         padding: 30px 0px;
     }
+   
 
 
     .project-main1 .div-main .div1 {
